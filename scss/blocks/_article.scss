@@ -1,0 +1,121 @@
+.article{
+  margin-bottom: 265px;
+}
+
+.article__title{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 20px;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list__item{
+  width: 305px;
+  background: #FEFEFE;
+  border: 1px solid #E4E4E2;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+
+.list__item-box{
+  padding: 35px 32px 30px 30px;
+}
+
+.list__date{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+  float: right;
+}
+
+.list__title{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 25px;
+  margin-top: 15px;
+}
+
+.list__text{
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.list__link{
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: $main-color;
+  margin-left: 25px;
+  &::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    background-image: url(../../images/pet.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: -28px;
+    top: 0;
+    width: 23px;
+    height: 20px;
+  }
+}
+
+
+
+.list__item-big{
+  width: 640px;
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  border: 1px solid #F3F3F3;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.list__box{
+  padding: 40px 35px 35px 30px;
+}
+
+.list__hashtag{
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3D9CEA;
+}
+
+.list__title-big{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 29px;
+  color: #333333;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.list__text-big{
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}

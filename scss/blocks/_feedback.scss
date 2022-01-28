@@ -1,0 +1,110 @@
+.feedback{
+  display: flex;
+  margin-bottom: 247px;
+}
+
+iframe{
+  width: 462px;
+  height: 652px;
+}
+
+.feedback__right{
+  background-color: $main-color;
+  padding: 60px 520px 70px 165px;
+  background-image: url(../images/fish-bgi.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.feedback-inner{
+  width: 375px;
+}
+
+.feedback-inner__title{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 62px;
+  color: #FFFFFF;
+}
+
+.feedback-inner__text{
+  margin: 0;
+  padding: 0;
+  margin-top: 14px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+
+.connect{
+  display: flex;
+  flex-direction: column;
+}
+
+.connect__input{
+  width: 375px;
+  border: 2px solid transparent;
+  padding: 15px 22px;
+  &:hover{
+    border: 2px solid #FFBD54;
+  }
+  &::placeholder{
+    font-size: 16px;
+    line-height: 21px;
+    color: #949494;
+  }
+  &:focus{
+    outline: none;
+    border: 2px solid #FFBD54;
+    &::placeholder{
+      color: $main-color;
+    }
+  }
+}
+
+.connect__input--email{
+  margin: 14px 0;
+}
+
+.connect__question{
+  width: 375px;
+  height: 165px;
+  margin-bottom: 30px;
+  padding: 17px 22px;
+  resize: vertical;
+  border: 2px solid transparent;
+  &:hover{
+    border: 2px solid #FFBD54;
+  }
+  &::placeholder{
+    font-size: 16px;
+    line-height: 21px;
+    color: #949494;
+  }
+  &:focus{
+    outline: none;
+    border: 2px solid #FFBD54;
+    &::placeholder{
+      color: $main-color;
+    }
+  }
+}
+
+.connect__btn{
+  width: 226px;
+  padding: 15px 48px;
+  background: #FFBD54;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  transition: all 0.3s ease;
+  &:hover{
+    background-color: $main-color;
+    color: #FFBD54;
+  }
+}

@@ -12,7 +12,7 @@
     content: '';
     position: absolute;
     z-index: -1;
-    background-image: url(../../images/house.svg);
+    background-image: url(../images/house.svg);
     background-repeat: no-repeat;
     background-size: contain;
     left: 220px;
@@ -32,13 +32,6 @@
   line-height: 18px;
   color: $main-color;
   transition: color 0.3s ease;
-  &:hover{
-    color: #FFBD54;
-  }
-  &:active{
-    color: $main-color;
-    opacity: 0.6;
-  }
 }
 
 .header-top__phone-wrapper{
@@ -48,7 +41,7 @@
     content: "";
     position: absolute;
     z-index: -1;
-    background-image: url(../../images/phone.svg);
+    background-image: url(../images/phone.svg);
     background-repeat: no-repeat;
     background-size: contain;
     left: -22px;
@@ -108,7 +101,7 @@
     content: '';
     position: absolute;
     z-index: -1;
-    background-image: url(../../images/date.svg);
+    background-image: url(../images/date.svg);
     background-repeat: no-repeat;
     background-size: contain;
     left: -22px;
@@ -124,13 +117,13 @@
   line-height: 18px;
   color: $main-color;
   transition: color 0.3s ease;
-  &:hover{
-    color: #FFBD54;
-  }
-  &:active{
-    color: $main-color;
-    opacity: 0.6;
-  }
+  // &:hover{
+  //   color: #FFBD54;
+  // }
+  // &:active{
+  //   color: $main-color;
+  //   opacity: 0.6;
+  // }
 }
 
 .header-top__date:nth-child(1){
@@ -182,7 +175,7 @@
     content: '';
     position: absolute;
     z-index: -1;
-    background-image: url(../../images/fish.svg);
+    background-image: url(../images/fish.svg);
     background-repeat: no-repeat;
     background-size: contain;
     left: -28px;
@@ -226,7 +219,7 @@
     content: '';
     position: absolute;
     z-index: -1;
-    background-image: url(../../images/pet.svg);
+    background-image: url(../images/pet.svg);
     background-repeat: no-repeat;
     background-size: contain;
     left: -28px;

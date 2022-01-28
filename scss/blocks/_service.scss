@@ -23,7 +23,7 @@
   position: absolute;
   top: 220px;
   left: 50px;
-  background-image: url(../../images/arrow-before.svg);
+  background-image: url(../images/arrow-before.svg);
   background-repeat: no-repeat;
   background-size: 14px 25px;
   background-position: center center;
@@ -48,7 +48,7 @@
   position: absolute;
   top: 220px;
   left: 1435px;
-  background-image: url(../../images/arrow-after.svg);
+  background-image: url(../images/arrow-after.svg);
   background-repeat: no-repeat;
   background-size: 14px 25px;
   background-position: center center;
@@ -116,7 +116,7 @@
 
 .service__item:nth-child(1)::before{
   content: '';
-  background-image: url(../../images/service-bg-1.svg);
+  background-image: url(../images/service-bg-1.svg);
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;
@@ -129,7 +129,7 @@
 
 .service__item:nth-child(2)::before{
   content: '';
-  background-image: url(../../images/service-bg-2.svg);
+  background-image: url(../images/service-bg-2.svg);
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;
@@ -142,7 +142,7 @@
 
 .service__item:nth-child(3)::before{
   content: '';
-  background-image: url(../../images/service-bg-3.svg);
+  background-image: url(../images/service-bg-3.svg);
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;
@@ -155,7 +155,7 @@
 
 .service__item:nth-child(4)::before{
   content: '';
-  background-image: url(../../images/service-bg-4.svg);
+  background-image: url(../images/service-bg-4.svg);
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;
@@ -168,7 +168,7 @@
 
 .service__item:nth-child(5)::before{
   content: '';
-  background-image: url(../../images/service-bg-5.svg);
+  background-image: url(../images/service-bg-5.svg);
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;
@@ -181,7 +181,7 @@
 
 .service__item:nth-child(6)::before{
   content: '';
-  background-image: url(../../images/service-bg-6.svg);
+  background-image: url(../images/service-bg-6.svg);
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;
@@ -257,7 +257,7 @@
   }
   &::before{
     content: '';
-    background-image: url(../../images/btn-yellow-before.svg);
+    background-image: url(../images/btn-yellow-before.svg);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -277,7 +277,7 @@
   z-index: 1;
   &::before{
     content: '';
-    background-image: url(../../images/btn-black-before.svg);
+    background-image: url(../images/btn-black-before.svg);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;

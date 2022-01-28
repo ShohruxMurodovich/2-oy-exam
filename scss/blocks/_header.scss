@@ -1,0 +1,243 @@
+.header-top{
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+}
+
+
+.header-top__adress{
+  position: relative;
+  z-index: 1;
+  &::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    background-image: url(../../images/house.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 220px;
+    top: 2px;
+    width: 13px;
+    height: 13px;
+  }
+}
+
+.header-top__adresslink{
+  margin-left: 240px;
+  margin-right: 106px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: $main-color;
+  transition: color 0.3s ease;
+  &:hover{
+    color: #FFBD54;
+  }
+  &:active{
+    color: $main-color;
+    opacity: 0.6;
+  }
+}
+
+.header-top__phone-wrapper{
+  position: relative;
+  z-index: 1;
+  &::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-image: url(../../images/phone.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: -22px;
+    top: 2px;
+    width: 13px;
+    height: 13px;
+  }
+}
+
+
+
+.header-top__phone{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: $main-color;
+  transition: color 0.3s ease;
+  &:hover{
+    color: #FFBD54;
+  }
+  &:active{
+    color: $main-color;
+    opacity: 0.6;
+  }
+}
+
+.header-top__phone:nth-child(2){
+  &::before{
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background-color: #FFBD54;
+    border-radius: 50%;
+    margin: 3px 9px;
+  }
+
+  &::after{
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background-color: #FFBD54;
+    border-radius: 50%;
+    margin: 3px 9px;
+  }
+}
+
+
+.header-top__date-wrapper{
+  margin-left: 98px;
+  position: relative;
+  z-index: 1;
+  &::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    background-image: url(../../images/date.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: -22px;
+    top: 3px;
+    width: 13px;
+    height: 13px;
+  }
+}
+
+.header-top__date{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: $main-color;
+  transition: color 0.3s ease;
+  &:hover{
+    color: #FFBD54;
+  }
+  &:active{
+    color: $main-color;
+    opacity: 0.6;
+  }
+}
+
+.header-top__date:nth-child(1){
+  margin-right: 17px;
+}
+
+
+// Header bottom
+
+.header-bottom{
+  padding: 20px;
+  background: #FFFFFF;
+  border: 1px solid #F3F3F3;
+}
+
+.header-bottom__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.site-logo{
+  position: absolute;
+  left: 10px;
+  top: -38px;
+  transition: opacity 0.4s ease;
+  &:hover{
+    opacity: 0.8;
+  }
+  &:active{
+    opacity: 0.6;
+  }
+}
+
+.nav__list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: 350px;
+}
+
+.nav__item:nth-child(1){
+  position: relative;
+  z-index: 1;
+  &::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    background-image: url(../../images/fish.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: -28px;
+    top: 2px;
+    width: 19px;
+    height: 19px;
+  }
+}
+
+.nav__item + .nav__item{
+  margin-left: 55px;
+}
+
+.nav__link{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: $main-color;
+  border-bottom: 4px solid transparent;
+  transition: all 0.4s ease;
+  &:hover{
+    border-bottom: 4px solid #F4FFAD;
+  }
+  &:active{
+    opacity: 0.6;
+  }
+}
+
+.header-bottom__help{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: $main-color;
+  z-index: 1;
+  position: relative;
+  border-bottom: 4px solid transparent;
+  transition: all 0.4s ease;
+  &::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    background-image: url(../../images/pet.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: -28px;
+    top: 2px;
+    width: 23px;
+    height: 20px;
+  }
+  &:hover{
+    border-bottom: 4px solid #F4FFAD;
+  }
+  &:active{
+    opacity: 0.6;
+  }
+}
